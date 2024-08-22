@@ -1,0 +1,159 @@
+// Import all of Bootstrap's CSS
+@import "bootstrap/scss/bootstrap";
+
+/* Light theme (default) */
+:root {
+  --background-color: #ffffff;
+  --text-color: #000000;
+}
+
+/* Dark theme */
+[data-theme="dark"] {
+  --background-color: #121212;
+  --text-color: #e0e0e0;
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Altivo";
+  color: #ffffff;
+}
+
+body {
+  font-family: "Altivo", sans-serif;
+}
+
+/* Altivo Black */
+@font-face {
+  font-family: "Altivo";
+  src: url("./Fonts/Fontspring-DEMO-altivo-black.otf") format("opentype");
+  font-weight: 900; /* Black */
+  font-style: normal;
+}
+
+/* Altivo Black Italic */
+@font-face {
+  font-family: "Altivo";
+  src: url("./Fonts/Fontspring-DEMO-altivo-blackitalic.otf") format("opentype");
+  font-weight: 900; /* Black */
+  font-style: italic;
+}
+
+/* Altivo Bold */
+@font-face {
+  font-family: "Altivo";
+  src: url("./Fonts/Fontspring-DEMO-altivo-bold.otf") format("opentype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* Altivo Bold Italic */
+@font-face {
+  font-family: "Altivo";
+  src: url("./Fonts/Fontspring-DEMO-altivo-bolditalic.otf") format("opentype");
+  font-weight: bold;
+  font-style: italic;
+}
+
+/* Altivo Extra Light */
+@font-face {
+  font-family: "Altivo";
+  src: url("./Fonts/Fontspring-DEMO-altivo-extralight.otf") format("opentype");
+  font-weight: 200; /* Extra Light */
+  font-style: normal;
+}
+
+/* Altivo Extra Light Italic */
+@font-face {
+  font-family: "Altivo";
+  src: url("./Fonts/Fontspring-DEMO-altivo-extralightitalic.otf")
+    format("opentype");
+  font-weight: 200; /* Extra Light */
+  font-style: italic;
+}
+
+/* Altivo Italic */
+@font-face {
+  font-family: "Altivo";
+  src: url("./Fonts/Fontspring-DEMO-altivo-italic.otf") format("opentype");
+  font-weight: normal;
+  font-style: italic;
+}
+
+/* Altivo Light */
+@font-face {
+  font-family: "Altivo";
+  src: url("./Fonts/Fontspring-DEMO-altivo-light.otf") format("opentype");
+  font-weight: 300; /* Light */
+  font-style: normal;
+}
+
+/* Altivo Light Italic */
+@font-face {
+  font-family: "Altivo";
+  src: url("./Fonts/Fontspring-DEMO-altivo-lightitalic.otf") format("opentype");
+  font-weight: 300; /* Light */
+  font-style: italic;
+}
+
+/* Altivo Medium */
+@font-face {
+  font-family: "Altivo";
+  src: url("./Fonts/Fontspring-DEMO-altivo-medium.otf") format("opentype");
+  font-weight: 500; /* Medium */
+  font-style: normal;
+}
+
+/* Altivo Medium Italic */
+@font-face {
+  font-family: "Altivo";
+  src: url("./Fonts/Fontspring-DEMO-altivo-mediumitalic.otf") format("opentype");
+  font-weight: 500; /* Medium */
+  font-style: italic;
+}
+
+/* Altivo Regular */
+@font-face {
+  font-family: "Altivo";
+  src: url("./Fonts/Fontspring-DEMO-altivo-regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Altivo Thin */
+@font-face {
+  font-family: "Altivo";
+  src: url("./Fonts/Fontspring-DEMO-altivo-thin.otf") format("opentype");
+  font-weight: 100; /* Thin */
+  font-style: normal;
+}
+
+/* Altivo Thin Italic */
+@font-face {
+  font-family: "Altivo";
+  src: url("./Fonts/Fontspring-DEMO-altivo-thinitalic.otf") format("opentype");
+  font-weight: 100; /* Thin */
+  font-style: italic;
+}
+
+/* Altivo Ultra */
+@font-face {
+  font-family: "Altivo";
+  src: url("./Fonts/Fontspring-DEMO-altivo-ultra.otf") format("opentype");
+  font-weight: 800; /* Ultra */
+  font-style: normal;
+}
+
+/* Altivo Ultra Italic */
+@font-face {
+  font-family: "Altivo";
+  src: url("./Fonts/Fontspring-DEMO-altivo-ultraitalic.otf") format("opentype");
+  font-weight: 800; /* Ultra */
+  font-style: italic;
+}
